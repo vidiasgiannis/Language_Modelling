@@ -13,11 +13,12 @@ The key objectives of this project are:
 ## **Repository Structure**
 
 ```
-/data/            # Training and test datasets (English, Spanish, German)
-/model/           # Python scripts including main.py (entry point for running the model)
-/README.md        # Project documentation
-/requirements.txt # List of dependencies for installing with pip
-/report.pdf       # Report containing analysis and implementation details
+/model/           # Contains all Python scripts and subdirectories
+  /data/          # Training and test datasets (English, Spanish, German)
+  /report/        # Report containing analysis and implementation details
+  main.py         # Entry point for running the model
+README.md         # Project documentation
+requirements.txt  # List of dependencies for installing with pip
 ```
 
 ## **Key Features**
